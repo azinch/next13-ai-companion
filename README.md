@@ -1,8 +1,10 @@
 # next13-ai-companion
 
+### AI Companion Chatbot (create/chat with LLM-powered heroes)
+
 ## Features:
 
-- Conversation Generation tool (Open AI)
+- Conversation generation (chatgpt LLM)
 - Typescript
 - Tailwind CSS
 - Customizable components shadcn/ui
@@ -51,16 +53,15 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
 
-### Setup Prisma
-
-Add MySQL Database
+### Setup Prisma and update your DB
 
 ```shell
 npx prisma db push
 
 ```
 
-Seed categories:
+### Seed Companion categories
+
 ```shell
 node scripts/seed.ts
 ```
